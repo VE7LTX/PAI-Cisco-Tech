@@ -60,7 +60,7 @@ def create_memory(api_key, memory_data):
 
 def ask_gpt(question):
     # Get an answer for a question from GPT-3.5
-    openai.api_key = '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'
+    openai.api_key = 'sk-youropenaiapihere'
 
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
